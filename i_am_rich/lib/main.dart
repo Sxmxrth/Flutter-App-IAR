@@ -11,12 +11,9 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: const Center(
-          child: Padding(
-            padding: EdgeInsets.all(10.0),
-            child: Image(
-              //child is what is going to be centered
-              image: AssetImage("images/diamond.png"),
-            ),
+          child: Image(
+            //child is what is going to be centered
+            image: AssetImage("images/diamond.png"),
           ),
         ),
       ),
